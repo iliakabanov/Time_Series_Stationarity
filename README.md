@@ -1,14 +1,19 @@
 # Time_Series_Stationarity
 
-В данной работе эмпирически проверяются теоретические критические точки теста Дикки-Фуллера на стационарность временных рядов. Данные критические точки рассчитываются для различных длин временного ряда и исследуется их сходимость с ростом выборки.
+This study empirically examines the theoretical critical values of the Dickey-Fuller test for stationarity of time series. These critical values are calculated for various time series lengths, and their convergence is analyzed as the sample size increases.
 
-Данная работа состоит из следующих этапов:
-* Введение, постановка исследовательского вопроса
-* Некторые извлечения из теории временных рядов
-* Обоснование и описание тестов Дикки-Фуллера
-  Шаги исследования:
-* Построение процессов случайного блуждания для различных объемов выборки
-* Для каждого обема выборки строится эмпирическое распределение t-статистик и считаются их критические значения
-* Строится график, как от длины временного ряда, зависят теоритические и эмпирические найденные критические значения t-статистик
-* При помощи MAE метрики сравниваются эмпирические и теоретические результаты из прошлых пунктов
-* В заключении подводится итог полученных результатов и дается ответ на исследовательский вопрос 
+The study consists of the following stages:
+
+* Introduction and formulation of the research question
+* Some insights from time series theory
+* Justification and description of the Dickey-Fuller tests
+
+Research steps:
+
+* Simulating random walk processes for various sample sizes.
+* For each sample size, empirical distributions of t-statistics are constructed, and their critical values are calculated.
+* A graph is plotted to illustrate how the theoretical and empirically derived critical values of t-statistics depend on the length of the time series.
+* The empirical and theoretical results from the previous steps are compared using the MAE (Mean Absolute Error) metric.
+
+Conclusion:
+The results are summarized, and an answer to the research question is provided.
